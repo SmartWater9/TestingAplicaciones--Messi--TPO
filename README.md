@@ -2,6 +2,6 @@
 
 Integrantes:
 
-Lázaro Rivela
-
 Nahuel Campos
+
+Lázaro Rivela
