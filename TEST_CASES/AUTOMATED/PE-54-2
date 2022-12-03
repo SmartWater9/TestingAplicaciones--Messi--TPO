@@ -28,13 +28,13 @@ class TestDdd():
     self.driver.find_element(By.NAME, "email").send_keys("asd@hotmail.com")
     self.driver.find_element(By.CSS_SELECTOR, "body").click()
     self.driver.find_element(By.NAME, "password").click()
-    self.driver.find_element(By.NAME, "password").send_keys("asd")
+    self.driver.find_element(By.NAME, "password").send_keys("asd345!")
     self.driver.find_element(By.CSS_SELECTOR, "p:nth-child(3) > input").click()
     assert self.driver.find_element(By.XPATH,"/html/body/p").text == "Invalid UserId / Password"
     self.driver.find_element(By.NAME, "email").click()
     self.driver.find_element(By.NAME, "email").send_keys("asd@hotmail.com")
     self.driver.find_element(By.CSS_SELECTOR, "body").click()
     self.driver.find_element(By.NAME, "password").click()
-    self.driver.find_element(By.NAME, "password").send_keys("asd")
+    self.driver.find_element(By.NAME, "password").send_keys("asd345!")
     self.driver.find_element(By.CSS_SELECTOR, "p:nth-child(3) > input").click()
     assert self.driver.find_element(By.XPATH,"/html/body/p").text == "Invalid UserId / Password"
